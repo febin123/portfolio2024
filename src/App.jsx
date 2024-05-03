@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
-import {Hero, Navbar,About } from "./components";
+import {Hero, Navbar,About, Experience } from "./components";
+
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
           <Hero/>
           </div>
           <About/>
+          <Experience/>
         
         
       </div>

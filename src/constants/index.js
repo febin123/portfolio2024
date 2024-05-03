@@ -15,14 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  freelancer,
+  blitzpools
 } from "../assets";
 
 export const navLinks = [
@@ -50,11 +48,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "JavaScript Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Freelancer",
     icon: creator,
   },
 ];
@@ -116,55 +114,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "Freelancer",
+    icon: freelancer,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2019 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Enhanced customer experience, increased improved UI rendering by 40% in just 5 weeks, utilizing web pages.",
+      "Web Performance optimization by 20% using React library, allowing alignment with the business requirements.",
+      "Reduced error rate by 90% in 2 weeks through implementing, React leading to improved digital transformation.",
+      "Improved web applications using lazy loading and reduce size, resulting in 30% faster loading time in 2 weeks.",
+      "Implement codebase review resulting in 20% increase in loading speed, leading to improved user satisfaction "
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "Blitzpools",
+    icon: blitzpools,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficiency in frontend development experience resulting in a 40% increase in user engagement within 5 weeks.",
+      "Implemented commissioning  cross-platform tooling, resulting in a 25% enhancement in scalable and accelerated speed to market for app development initiatives within 5 week period, Technical requirements: React, Webpack.",
+      "Simplified 50% of the test case suite, resulting improvements in unit testing strategy efficiency within 2 quarters.",
+      "Maintaining code by writing clean, code review, resulting in 60% increase in new product development .",
+      "Streamlined UI development with data consideration, confidential 15% increase in information management"
     ],
   },
 ];
