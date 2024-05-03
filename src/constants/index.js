@@ -11,14 +11,17 @@ import {
   redux,
   tailwind,
   git,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   freelancer,
   blitzpools,
   netlify,
-  firebase
+  firebase,
+  iphone,
+  finder,
+  amazon,
+  beer,
+  shobhra,
+  trade
 } from "../assets";
 
 export const navLinks = [
@@ -133,59 +136,37 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Maxima Apple IPhone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed improved version of Apple iPhone website using three js and GSAP, resulting in TTFB of 176 ms, boosting user experience and site performance.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "gsap",
         color: "green-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "red-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: iphone,
+    source_code_link: "https://github.com/febin123/maxima-phone",
   },
   {
-    name: "Job IT",
+    name: "Infinity Finder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed improved version of official Google engine using react js and tailwind css, resulting 15% increase in boosting user experience and site performance.",
     tags: [
       {
         name: "react",
@@ -196,34 +177,107 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
+      {
+        name: "context-api",
+        color: "red-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: finder,
+    source_code_link: "https://github.com/febin123/infinityfinder.git",
   },
   {
-    name: "Trip Guide",
+    name: "Prime World",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Utilized tech stack like Reactjs, and firebase as user authentication  to implement Single Page Application, resulting in 400 ms reduction in website loading time.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "context-api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: amazon,
+    source_code_link: "https://github.com/febin123/prime-world.git",
   },
+  {
+    name: "BeerBiceps",
+    description:
+      "Achieved a 30% increase in website load speed, leading to improved user experience.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jquery",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "json",
+        color: "red-text-gradient",
+      },
+      {
+        name: "html5/css3",
+        color: "green-text-gradient",
+      },
+    ],
+    image: beer,
+    source_code_link: "https://github.com/febin123/BeerBiceps.git",
+  },
+  {
+    name: "TradeZero",
+    description:
+      "Reduced initial loading time significantly by minimizing the bundle size, resulting in a 20% increase in website load speed.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "red-text-gradient",
+      },
+      
+    ],
+    image: trade,
+    source_code_link: "https://github.com/febin123/TradeZero.git",
+  },
+  {
+    name: "Shobhra",
+    description:
+      "Improved user experience, resulting in 10% increase in website loading speed.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "red-text-gradient",
+      },
+      
+    ],
+    image: shobhra,
+    source_code_link: "https://github.com/febin123/shobhra.git",
+  }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

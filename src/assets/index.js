@@ -17,12 +17,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import blitzpools from "./company/blitzpools.avif"
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import netlify from "./tech/netlify.png"
 import firebase from "./tech/firebase.png"
-
+import iphone from "./iphone.png"
+import amazon from "./amazon.png"
+import finder from "./finder.png"
+import beer from "./beer.png"
+import shobhra from "./shobhra.png"
+import trade from "./trade.png"
 export {
   logo,
   backend,
@@ -41,11 +45,16 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
+  iphone,
   jobit,
   blitzpools,
   tripguide,
   freelancer,
   firebase,
-  netlify
+  netlify,
+  finder,
+  amazon,
+  beer,
+  shobhra,
+  trade
 };
