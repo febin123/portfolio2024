@@ -10,17 +10,15 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
   carrent,
   jobit,
   tripguide,
   threejs,
   freelancer,
-  blitzpools
+  blitzpools,
+  netlify,
+  firebase
 } from "../assets";
 
 export const navLinks = [
@@ -87,14 +85,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -103,13 +93,13 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name:"Netlify",
+    icon:netlify
   },
   {
-    name: "docker",
-    icon: docker,
-  },
+    name:"Firebase",
+    icon: firebase
+  }
 ];
 
 const experiences = [

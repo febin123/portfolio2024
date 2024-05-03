@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
 import {Hero, Navbar,About, Experience } from "./components";
+import Tech from "./components/Tech";
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
           </div>
           <About/>
           <Experience/>
+          <Tech/>
         
         
       </div>
