@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./F.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -17,7 +17,6 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import blitzpools from "./company/blitzpools.avif"
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import netlify from "./tech/netlify.png"
 import firebase from "./tech/firebase.png"
@@ -46,7 +45,6 @@ export {
   typescript,
   threejs,
   iphone,
-  jobit,
   blitzpools,
   tripguide,
   freelancer,
