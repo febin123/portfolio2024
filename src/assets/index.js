@@ -26,6 +26,7 @@ import finder from "./finder.png"
 import beer from "./beer.png"
 import shobhra from "./shobhra.png"
 import trade from "./trade.png"
+import orcawise from "./company/orcawise.jpg"
 export {
   logo,
   backend,
@@ -54,5 +55,6 @@ export {
   amazon,
   beer,
   shobhra,
-  trade
+  trade,
+  orcawise
 };

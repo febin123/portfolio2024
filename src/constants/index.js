@@ -21,6 +21,7 @@ import {
   amazon,
   beer,
   shobhra,
+ orcawise,
   trade
 } from "../assets";
 
@@ -106,12 +107,26 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "Frontend Developer",
+    company_name: "Orcawise",
+    icon: orcawise,
+    iconBg: "#383E56",
+    date: "January 2025 - Present",
+    points: [
+      "Developed various GenAI-powered chatbots using Reactjs, OpenAI(gpt-3.5, gpt 4, gpt 4o, embedding models), Llama models, LangGraph framework showcasing proficiency in natural languagae processing, generativeAI .",
+      "Develop and integrate OpenAI-powered chatbot solutions (raims.chat) to enhance user engagement and provide intelligent customer support",
+      "Led POC developments to automate process in the Networks industry, utilizing cutting-edge technologies such as RAG, Langchain and Generative AI.",
+      "Optimize front-end performance and implement CI/CD using GitLab and Docker, improving deployment efficiency by 35%.",
+      "Applied analytics and A/B testing methods to refine UX and boost retention metrics."
+    ],
+  },
   {
     title: "Frontend Developer",
     company_name: "Freelancer",
     icon: freelancer,
     iconBg: "#383E56",
-    date: "January 2019 - Present",
+    date: "January 2019 - December 2024",
     points: [
       "Enhanced customer experience, increased improved UI rendering by 40% in just 5 weeks, utilizing web pages.",
       "Web Performance optimization by 20% using React library, allowing alignment with the business requirements.",
